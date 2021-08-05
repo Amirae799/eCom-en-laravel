@@ -29,4 +29,17 @@
     })
 </script>
 -->
+<style>
+    img.slider-img{
+        height: 400px !important;
+        margin-bottom: 80px;
+
+    }
+.custom-product{
+    height:400px;
+    background-color: #4f805d;
+}
+
+
+</style>
 </html>
