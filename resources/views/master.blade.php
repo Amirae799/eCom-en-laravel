@@ -32,13 +32,31 @@
 <style>
     img.slider-img{
         height: 400px !important;
-        margin-bottom: 80px;
-
+        padding: 20px;
+        margin-bottom: 50px;
     }
 .custom-product{
     height:400px;
-    background-color: #4f805d;
+    background-color: #e2f1db;
+
 }
+.trending-img{
+    height: 200px;
+    padding: 20px;
+
+}
+text.trending-img{
+    size: 30px;
+    padding: 20px;
+}
+.trending-item{
+    float: left;
+    width: 200px;
+}
+.trending-wrapper{
+    margin: 3px;
+}
+
 
 
 </style>
