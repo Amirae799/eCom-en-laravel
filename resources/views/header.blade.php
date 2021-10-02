@@ -26,7 +26,7 @@ $total=ProductController::cartItem();
                 <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Orders</a>
+                <a class="nav-link" href="/myorder">Orders</a>
             </li>
             <li>
                 <form class="form-inline" action="/search">
@@ -35,7 +35,7 @@ $total=ProductController::cartItem();
                 </form>
 
             </li>
-            <li><a href="#" style="color: whitesmoke;margin-left: 20px;margin-right: 60px">Cart({{$total}})</a> </li>
+            <li><a href="cartlist" style="color: whitesmoke;margin-left: 20px;margin-right: 60px">Cart({{$total}})</a> </li>
             @if(Session::has('user'))
             <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: #1c7430">{{Session::get('user')['name']}}
@@ -49,6 +49,7 @@ $total=ProductController::cartItem();
                 <li><a href="/login">login</a> </li>
             @endif
         </ul>
+
     </div>
 </nav>
 

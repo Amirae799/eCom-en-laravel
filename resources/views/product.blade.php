@@ -40,12 +40,14 @@
                 <a href="detail/{{$item['id']}}" style="color: #1c7430">
                 <img class="trending-img" src="{{$item['gallery']}}" style="margin-left: 10px" >
 
-                <h2 style="margin-left: 70px;size: 20px">{{$item['name']}}</h2>
+                <h2 style="margin-left:80px;size:15px">{{$item['name']}}</h2>
                 </a>
         </div>
 </div>
+
 @endforeach
     </div>
+
 
 
 @endsection

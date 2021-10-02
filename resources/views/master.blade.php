@@ -37,8 +37,11 @@
     }
 .custom-product{
     height:400px;
-    background-color: #e2f1db;
+    background-color: white;
 
+}
+.trending-wrapper{
+    margin: 30px;
 }
 .trending-img{
     height: 200px;
@@ -51,10 +54,17 @@ text.trending-img{
 }
 .trending-item{
     float: left;
-    width: 200px;
+    position: relative;
+    width: 20%;
 }
 .trending-wrapper{
-    margin: 3px;
+    margin: 30px;
+
+}
+.cart-list-devider{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 

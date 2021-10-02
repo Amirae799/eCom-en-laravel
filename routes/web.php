@@ -1,8 +1,12 @@
 <?php
 
+use Illuminate\Contracts\Session\Session;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -26,4 +30,12 @@ Route::get('/','App\Http\Controllers\ProductController@index');
 Route::get('detail/{id}','App\Http\Controllers\ProductController@detail');
 Route::get('search','App\Http\Controllers\ProductController@search');
 Route::post('add_to_cart','App\Http\Controllers\ProductController@addToCart');
+Route::get('cartlist','App\Http\Controllers\ProductController@cartList');
+Route::get('remove/{id}','App\Http\Controllers\ProductController@removecart');
+Route::get('ordernow','App\Http\Controllers\ProductController@OrderNow');
+Route::post('orderplace','App\Http\Controllers\ProductController@Orderplace');
+Route::get('myorder','App\Http\Controllers\ProductController@myOrder');
+//////////////////////////////////
+///
+
 
